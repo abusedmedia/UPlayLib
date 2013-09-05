@@ -12,7 +12,8 @@ void setup()
     size (640, 480);
     // create a player
     player = new UPlayer(this);
-    frameRate(1);
+    player.start();
+    frameRate(60);
     endLoopPlayerMillis = millis();
     endLoopMillis = millis();
     
@@ -30,7 +31,6 @@ void setup()
       }
     }
     
-    player.start();
 }
 
 void draw() 

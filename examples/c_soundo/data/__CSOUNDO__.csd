@@ -1,6 +1,6 @@
 <CsoundSynthesizer>
 <CsOptions>
--g -odac /Users/abused/Code/EclipseWS/UPlayLib/examples/b1_Csoundo/data/__CSOUNDO__.csd
+-g -odac /Users/abused/Dropbox/public/sandbox/ProcessingLibraries/UPlayLib/examples/c_soundo/data/__CSOUNDO__.csd
 </CsOptions>
 <CsInstruments>
 sr = 44100
