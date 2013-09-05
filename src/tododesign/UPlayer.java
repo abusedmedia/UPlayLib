@@ -1,27 +1,21 @@
 /**
- * UPlay Lib: An algorithmic composition library for Processing
+ * Copyright (c) 2013 Franchino Fabio
  *
- * ##copyright##
+ * This file is part of a library called UPlay - http://github.com/abusedmedia
  *
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation; either
- * version 2.1 of the License, or (at your option) any later version.
- * 
- * This library is distributed in the hope that it will be useful,
+ * UPlay is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * UPlay is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General
- * Public License along with this library; if not, write to the
- * Free Software Foundation, Inc., 59 Temple Place, Suite 330,
- * Boston, MA  02111-1307  USA
- * 
- * @author		##author##
- * @modified	##date##
- * @version		##version##
- */
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with the UPlay. If not, see <http://www.gnu.org/licenses/>.
+*/
 
 package tododesign;
 
@@ -29,17 +23,7 @@ import java.lang.reflect.*;
 import java.util.ArrayList;
 
 
-/**
- * This is a template class and can be used to start a new processing library or tool.
- * Make sure you rename this class as well as the name of the example package 'template' 
- * to your own library or tool naming convention.
- * 
- * @example a1_Basic 
- * 
- * (the tag @example followed by the name of an example included in folder 'examples' will
- * automatically include the example in the javadoc.)
- *
- */
+
 
 
 public class UPlayer extends Thread 
@@ -69,7 +53,6 @@ public class UPlayer extends Thread
 	 * a Constructor, usually called in the setup() method in your sketch to
 	 * initialize and start the library.
 	 * 
-	 * @example a1_Basic
 	 * @param _parent the Parent Object
 	 */
 	public UPlayer(Object _parent) 

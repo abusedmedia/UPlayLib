@@ -23,6 +23,7 @@ void setup()
     
     // create a player
     player = new UPlayer(this);
+    player.start();
     
     // create a track
     track = new UTrack();
@@ -41,7 +42,6 @@ void setup()
         dots[i] = note;
     }
     
-    player.start();
 }
 
 void draw() 
