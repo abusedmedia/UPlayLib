@@ -16,7 +16,7 @@ Tracks won't be queued. Instead they will be run independently.
 
 #Download the library
 Read the README inside in order to install it properly.
-[Download UPlay 1.0](https://github.com/abusedmedia/UPlayLib/blob/master/distribution/UPlay-1.0/download/UPlay-1.0.zip?raw=true)
+[Download UPlay 1.0](http://goo.gl/fUFPMy)
 
 
 #Basic example
